@@ -11,4 +11,4 @@ class fizzBuzz(models.Model):
 		return self.id
 
 
-		# Create your models here.
+		

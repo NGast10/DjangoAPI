@@ -18,12 +18,12 @@ Including another URLconf
 from django.urls import path,include
 from rest_framework import routers
 from . import views
-
+#Router is abstraction that handles defining URLs
 router = routers.DefaultRouter()
 router.register("FizzBuzz", views.fizzBuzzListView)
 
 
 urlpatterns = [
     path("", include(router.urls)),
-    #path("fizzbuzz/<int:pk>",views.fizzBuzzDetailView.as_view())
+    
 ]

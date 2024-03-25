@@ -1,5 +1,5 @@
 # DjangoAPI
-'''
+
 Task Summary:
 
 Using Django Rest Framework, create an API endpoint for “fizzbuzzes” that supports 3 operations: retrieve, list, and create.
@@ -19,5 +19,4 @@ Notes:
 Bonus tasks: If you breeze through the above exercise and want to tackle something a little harder, here are two more features to implement:
 •	Write Unit Tests to cover basic functionality, using factories or fixtures to populate mock data.
 •	Document your code (through Docstrings, perhaps? Or in a method of your own choosing)
-![image](https://github.com/NGast10/DjangoAPI/assets/143456031/57a9a304-9ea9-479d-a2eb-ba45dd20291a)
-'''
+
